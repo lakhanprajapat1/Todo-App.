@@ -23,9 +23,21 @@ while (true) {
        let idx= prompt("Enter index of you want to delete task");
        todo.splice(idx, 1)
        console.log(" task deleted")
-//     }else{
-//         console.log("Wrong Request");
-//     }
+    }else{
+        console.log("Wrong Request");
+    }
 
-//     req = prompt("Please enter your task");
-// } 
+    req = prompt("Please enter your task");
+} 
+
+
+
+
+
+
+
+
+
+
+
+
